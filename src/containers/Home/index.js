@@ -11,6 +11,7 @@ export default class Home extends Component {
                 <HomeHeader/>
                 <div className="main-content">
                     <HomeSlider/>
+
                 </div>
             </div>
         )

@@ -1,8 +1,14 @@
 import React,{Component} from "react";
 import ReactDOM from "react-dom";
 import ReactSwipe from "react-swipe"
+import {getSliders} from "../../../../api/home";
 
 export default class HomeSlider extends Component {
+    componentDidMount(){
+        getSliders().then(sliders=>{
+            console.log(sliders)
+        })
+    }
     render(){
         let swipeOptions = {
             auto:3000,

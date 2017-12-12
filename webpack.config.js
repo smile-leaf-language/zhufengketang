@@ -7,6 +7,11 @@ module.exports={
         filename:"bundle.js"
     },
     devtool:"cheap-module-source-map",
+    devServer: {//这个东西有的时候不稳定  不靠谱  有时管用有时不管用，所以不推荐使用
+        proxy:{
+            "/api":"http://localhost:3000"
+        }
+    },
     module:{
         rules:[
             {
