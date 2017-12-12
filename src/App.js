@@ -2,9 +2,10 @@ import React,{Component} from "react";
 import Tab from "./components/Tab/index";
 import {HashRouter as Router,Route} from "react-router-dom";
 import "./style/comm.less"
-import Home from "./container/Home";
-import Course from "./container/Course";
-import Profile from "./container/Profile";
+import Home from "./container/Home/index";
+import Course from "./container/Course/index";
+import Profile from "./container/Profile/index";
+
 
 export default class App extends Component {
     render(){

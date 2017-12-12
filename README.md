@@ -23,4 +23,6 @@ npm install babel-core babel-loader babel-preset-es2015 babel-preset-react babel
 容器组件，每个组件对应一个页面
 
 ## components(可复用的UI组件)
-放置着
+放置着可复用的组件
+## store
+放着我们的redux仓库

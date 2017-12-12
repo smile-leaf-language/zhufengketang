@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"webpack -p",
+    "build": "webpack -p",
     "dev": "webpack-dev-server --open"
   },
   "keywords": [],
@@ -29,6 +29,7 @@
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
     "swipe-js-iso": "^2.0.4",
+    "url-loader": "^0.6.2",
     "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
