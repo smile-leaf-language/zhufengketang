@@ -2,9 +2,9 @@ import React,{Component} from "react";
 import Tab from "./components/Tab/index";
 import {HashRouter as Router,Route} from "react-router-dom";
 import "./style/comm.less"
-import Home from "./container/Home/index";
-import Course from "./container/Course/index";
-import Profile from "./container/Profile/index";
+import Home from "./containers/Home/index";
+import Course from "./containers/Course/index";
+import Profile from "./containers/Profile/index";
 
 
 export default class App extends Component {
