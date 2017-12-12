@@ -4,7 +4,7 @@ module.exports={
     entry:"./src/index.js",
     output:{
         path:path.resolve("build"),
-        filename:bundle.js
+        filename:"bundle.js"
     },
     devtool:"cheap-module-source-map",
     module:{
